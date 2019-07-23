@@ -1,0 +1,23 @@
+{
+  "name": "@class101/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint configuration",
+  "main": "index.js",
+  "repository": "https://github.com/pedaling/eslint-tsconfig-class101",
+  "author": "ochanje210@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "prettier": "^1.18.2"
+  }
+}
