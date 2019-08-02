@@ -1,9 +1,9 @@
 {
   "name": "@class101/eslint-config",
   "version": "1.0.0",
-  "description": "ESLint configuration",
+  "description": "ESLint configuration for Class101",
   "main": "index.js",
-  "repository": "https://github.com/pedaling/eslint-tsconfig-class101",
+  "repository": "https://github.com/pedaling/class101-eslint-config",
   "author": "ochanje210@gmail.com",
   "license": "MIT",
   "private": false,
