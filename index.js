@@ -28,7 +28,7 @@ module.exports = {
     }
   },
   rules: {
-    "array-type": [true, "array"],
+    "array-type": [1, "array"],
     "interface-name": [true, "never-prefix"],
     "variable-name": [
       true,
