@@ -29,21 +29,16 @@ module.exports = {
   },
   rules: {
     "array-type": [1, "array"],
-    "interface-name": [true, "never-prefix"],
-    "variable-name": [
-      true,
-      "ban-keywords",
-      "check-format",
-      "allow-pascal-case"
-    ],
-    "no-namespace": false,
-    "object-literal-sort-keys": false,
-    "ordered-imports": true,
-    "no-unused-variable": true,
-    "no-unused-expression": true,
-    quotemark: [true, "single", "jsx-double"],
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "error",
-    "prettier/prettier": "error"
+    "interface-name": [2, "never-prefix"],
+    "variable-name": [2, "ban-keywords", "check-format", "allow-pascal-case"],
+    "no-namespace": 0,
+    "object-literal-sort-keys": 0,
+    "ordered-imports": 1,
+    "no-unused-variable": 1,
+    "no-unused-expression": 1,
+    quotemark: [1, "single", "jsx-double"],
+    "react-hooks/rules-of-hooks": 2,
+    "react-hooks/exhaustive-deps": 2,
+    "prettier/prettier": 2
   }
 };
