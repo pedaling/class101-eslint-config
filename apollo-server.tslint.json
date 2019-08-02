@@ -1,0 +1,12 @@
+{
+  "extends": ["../../tslint.json"],
+  "linterOptions": {
+    "exclude": ["src/scripts/**/*.ts"]
+  },
+  "rules": {
+    "max-classes-per-file": false,
+    "variable-name": [true, "allow-leading-underscore", "allow-pascal-case"],
+    "interface-name": false,
+    "member-access": false
+  }
+}
