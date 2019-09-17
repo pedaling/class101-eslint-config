@@ -1,13 +1,5 @@
 module.exports = {
-  extends: [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "airbnb",
-    "plugin:prettier/recommended",
-    "prettier",
-    "prettier/@typescript-eslint",
-    "prettier/react"
-  ],
+  extends: ["eslint:recommended"],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly"
@@ -28,17 +20,7 @@ module.exports = {
     }
   },
   rules: {
-    "array-type": [1, "array"],
-    "interface-name": [2, "never-prefix"],
-    "variable-name": [2, "ban-keywords", "check-format", "allow-pascal-case"],
-    "no-namespace": 0,
-    "object-literal-sort-keys": 0,
-    "ordered-imports": 1,
-    "no-unused-variable": 1,
-    "no-unused-expression": 1,
-    quotemark: [1, "single", "jsx-double"],
     "react-hooks/rules-of-hooks": 2,
-    "react-hooks/exhaustive-deps": 2,
-    "prettier/prettier": 2
+    "react-hooks/exhaustive-deps": 2
   }
 };
