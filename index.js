@@ -20,7 +20,6 @@ module.exports = {
   },
   rules: {
     "react-hooks/rules-of-hooks": 2,
-    "react-hooks/exhaustive-deps": 2,
-    "@typescript-eslint/prefer-optional-chain": 2
+    "react-hooks/exhaustive-deps": 2
   }
 };
