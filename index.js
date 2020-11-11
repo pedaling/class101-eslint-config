@@ -30,6 +30,7 @@ module.exports = {
     "sort-keys": 0,
     "max-classes-per-file": 0,
     "class-methods-use-this": 0,
+    "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
     "@typescript-eslint/no-unused-vars": 1,
     "@typescript-eslint/array-type": ["error", { default: "array" }],
     "@typescript-eslint/no-namespace": 0,
