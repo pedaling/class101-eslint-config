@@ -1,5 +1,5 @@
 {
-  "name": "@class101/eslint-config-test",
+  "name": "@class101/eslint-config",
   "version": "2.3.2",
   "description": "ESLint configuration for Class101",
   "main": "index.js",
