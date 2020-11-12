@@ -1,6 +1,6 @@
 {
   "name": "@class101/eslint-config",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "description": "ESLint configuration for Class101",
   "main": "index.js",
   "repository": "https://github.com/pedaling/class101-eslint-config",
@@ -10,7 +10,6 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.6.1",
     "@typescript-eslint/parser": "^4.6.1",
-    "eslint-config-airbnb": "^17.1.1",
     "eslint-config-airbnb-typescript": "^12.0.0",
     "eslint-config-prettier": "6.15.0",
     "eslint-plugin-import": "^2.18.2",
