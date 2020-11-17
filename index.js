@@ -11,7 +11,7 @@ module.exports = {
     sourceType: "module"
   },
   extends: ["airbnb-typescript", "plugin:@typescript-eslint/eslint-recommended", "prettier", "prettier/@typescript-eslint", "prettier/react"],
-  plugins: ["@typescript-eslint", "prettier"],
+  plugins: ["@typescript-eslint", "react", "react-hooks", "prettier"],
   parser: "@typescript-eslint/parser",
   rules: {
     "@typescript-eslint/dot-notation": 0,
