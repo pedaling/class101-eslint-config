@@ -1,6 +1,6 @@
 {
   "name": "@class101/eslint-config",
-  "version": "2.3.6",
+  "version": "2.3.7",
   "description": "ESLint configuration for Class101",
   "main": "index.js",
   "repository": "https://github.com/pedaling/class101-eslint-config",
