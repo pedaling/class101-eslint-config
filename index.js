@@ -45,7 +45,7 @@ module.exports = {
     "react/state-in-constructor": 0,
     "react/static-property-placement": 0,
     "no-param-reassign": 1,
-    "quotes": ["error", "single"],
+    "quotes": ["error", "single", { avoidEscape: true }],
     "jsx-quotes": ["error", "prefer-double"],
     "sort-keys": 0,
     "max-classes-per-file": 0,
