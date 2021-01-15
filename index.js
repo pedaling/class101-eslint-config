@@ -27,6 +27,7 @@ module.exports = {
     "@typescript-eslint/no-use-before-define": 0,
     "class-methods-use-this": 0,
     "no-continue": 0,
+    "no-console": "error",
     "no-await-in-loop": 0,
     "react-hooks/rules-of-hooks": 2,
     "react-hooks/exhaustive-deps": ["error", { "enableDangerousAutofixThisMayCauseInfiniteLoops": true }],
