@@ -1,16 +1,20 @@
 module.exports = {
   globals: {
     Atomics: "readonly",
-    SharedArrayBuffer: "readonly"
+    SharedArrayBuffer: "readonly",
   },
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
     },
     ecmaVersion: 2018,
-    sourceType: "module"
+    sourceType: "module",
   },
-  extends: ["airbnb-typescript", "plugin:@typescript-eslint/eslint-recommended", "prettier", "prettier/@typescript-eslint", "prettier/react"],
+  extends: [
+    "airbnb-typescript",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "prettier",
+  ],
   plugins: ["@typescript-eslint", "react", "react-hooks", "prettier"],
   parser: "@typescript-eslint/parser",
   rules: {
@@ -20,9 +24,9 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": [
       "warn",
       {
-        "vars": "all",
-        "varsIgnorePattern": "^(query|mutation|fragment|_)$"
-      }
+        vars: "all",
+        varsIgnorePattern: "^(query|mutation|fragment|_)$",
+      },
     ],
     "@typescript-eslint/no-use-before-define": 0,
     "class-methods-use-this": 0,
@@ -46,28 +50,35 @@ module.exports = {
     "react/state-in-constructor": 0,
     "react/static-property-placement": 0,
     "no-param-reassign": 1,
-    "quotes": ["error", "single", { avoidEscape: true }],
+    quotes: ["error", "single", { avoidEscape: true }],
     "jsx-quotes": ["error", "prefer-double"],
     "sort-keys": 0,
     "max-classes-per-file": 0,
     "no-underscore-dangle": 0,
-    "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
+    "lines-between-class-members": [
+      "error",
+      "always",
+      { exceptAfterSingleLine: true },
+    ],
     "@typescript-eslint/array-type": ["error", { default: "array" }],
     "@typescript-eslint/no-namespace": 0,
     "@typescript-eslint/no-unused-expressions": 2,
     "@typescript-eslint/naming-convention": [
       "error",
       {
-        "selector": "interface",
-        "format": ["PascalCase"],
-        "custom": {
-          "regex": "^I[A-Z]",
-          "match": false
-        }
-      }
+        selector: "interface",
+        format: ["PascalCase"],
+        custom: {
+          regex: "^I[A-Z]",
+          match: false,
+        },
+      },
     ],
-    "prettier/prettier": ["error", {
-      "arrowParens": "avoid"
-    }]
-  }
+    "prettier/prettier": [
+      "error",
+      {
+        arrowParens: "avoid",
+      },
+    ],
+  },
 };
