@@ -34,7 +34,7 @@ module.exports = {
     "no-console": "error",
     "no-await-in-loop": 0,
     "react-hooks/rules-of-hooks": 2,
-    "react-hooks/exhaustive-deps": 2,
+    "react-hooks/exhaustive-deps": ["error", { "enableDangerousAutofixThisMayCauseInfiniteLoops": true }],
     "import/named": 2,
     "import/no-named-as-default": 0,
     "import/prefer-default-export": 0,
